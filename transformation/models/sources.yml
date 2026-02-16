@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: raw_reddit
+    schema: raw_reddit
+    tables:
+      - name: reddit_posts
+
+  - name: raw_news
+    schema: raw_news
+    tables:
+      - name: news_articles
+
+  - name: raw_finance
+    schema: raw_finance
+    tables:
+      - name: stock_quotes
+      - name: company_news
